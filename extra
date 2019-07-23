@@ -1,0 +1,11 @@
+Closing Tag=> The tag we have to close sepeartly 
+<h1><p>
+
+Self Closing => Its close at same place
+<hr/>
+
+Inline tags =>start from same line
+<span>
+
+Block level tag=> start from new line
+<p><h1>-<h6>
