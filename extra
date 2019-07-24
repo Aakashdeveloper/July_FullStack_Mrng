@@ -1,11 +1,16 @@
 Closing Tag=> The tag we have to close sepeartly 
-<h1><p>
+<h1><p><a>
 
 Self Closing => Its close at same place
-<hr/>
+<hr/><img/>
 
 Inline tags =>start from same line
-<span>
+<span><img/><a>
 
 Block level tag=> start from new line
 <p><h1>-<h6>
+
+List
+unordered List
+ordered List
+descriptive list
