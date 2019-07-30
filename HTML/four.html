@@ -1,4 +1,6 @@
+<!DOCTYPE html5>
 <html>
+
     <head>
         <title>Forms</title>
     </head>
@@ -25,6 +27,16 @@
         <div>
             <form action="" method="GET">
                 <div>
+                    <label for="appid">
+                        Application
+                    </label>
+                    <input type="text"
+                        value="8768hv67j7"
+                        id="appid"
+                        name="appid"
+                        readonly/>
+                </div>
+                <div>
                     <label for="first">
                         FirstName:
                     </label>
@@ -44,9 +56,104 @@
                         id="second"
                         name="lname"/>
                 </div>
-                <div></div>
-                <label>Gender</label>
-                    <label>
+                <div>
+                        <label for="email">
+                            Email: 
+                        </label>
+                        
+                        <input type="email"
+                            placeholder="Email"
+                            id="email"
+                            name="email"/>
+                </div>
+                <div>
+                        <label for="pwd">
+                            Password: 
+                        </label>
+                        
+                        <input type="password"
+                            placeholder="pwd"
+                            id="pwd"
+                            name="pwd"
+                            minlength="8"
+                            pattern="^[A-Za-z0-9_]*$"/>
+                </div>
+                <div>
+                        <label for="range">
+                            range:
+                        </label>
+                        <input type="range"
+                            id="range"
+                            name="range"
+                            min="0"
+                            max="10"/>
+                    </div>
+                <hr/>
+                <div>
+                        <label for="dt">
+                            Date: 
+                        </label>
+                        
+                        <input type="date"
+    
+                            id="dt"
+                            name="dt"/>
+                </div>
+                <div>
+                        <label for="color">
+                            Color: 
+                        </label>
+                        
+                        <input type="color"
+                            id="color"
+                            name="color"/>
+                </div>
+                <div>
+                        <label for="file">
+                            File: 
+                        </label>
+                        
+                        <input type="file"
+                            placeholder="file"
+                            id="file"
+                            name="file"/>
+                </div>
+                <div>
+                    <label for="Search">
+                            Search: 
+                    </label>
+                                
+                    <input type="search"
+                            placeholder="search your name"
+                            id="search"
+                            name="search"/>
+                </div>
+                <div>
+                        <label for="Url">
+                                url: 
+                        </label>
+                                    
+                        <input type="url"
+                                placeholder="Enter web url"
+                                id="url"
+                                name="url"/>
+                </div>
+                <div>
+                        <label for="num">
+                                phone: 
+                        </label>
+                                    
+                        <input type="tel"
+                                placeholder="Enter number"
+                                id="num"
+                                name="num"
+                                minlength=10
+                                pattern="[0-9]"
+                               />
+                </div>
+                <div>
+                    <label>Gender</label>
+                        <label>
                         <input type="radio" 
                                 value="female"
                                 name="gender"/>Female
@@ -67,8 +174,20 @@
                             value="css"/>CSS
                 </div>
                 <div>
+                    <label>City</label>
+                    <select name="city">
+                        <option>NewYork</option>
+                        <option selected>London</option>
+                        <option>Delhi</option>
+                    </select>
+                </div>
+                <label>Comments</label>
+                <textarea></textarea>
+                <div>
                     <button type="submit">Submit</button>
+                    <button type="button">Test Date</button>
                     <button type="reset">Reset</button>
+                    <input type="button" value="Reset"/>
                 </div>
                 
             </form>
