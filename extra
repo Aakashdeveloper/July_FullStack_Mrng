@@ -25,3 +25,18 @@ git push -u origin master
 git add .
 git commit -m "first commit"
 git push
+
+
+/***********
+    Css
+************/
+Inline
+Style Tag
+StyleSheet
+
+Inline>Style Tag>StyleSheet
+
+targeting Element
+=>By Tag Name(look for all tags and assign property)
+=> Id (#) For targeting Unique Element
+=> Class(.) fro taregt group of element

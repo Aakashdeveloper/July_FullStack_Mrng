@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Css Page</title>
+        <style>
+            div{
+                height: 30px;
+                width: 100px;
+                background: hotpink;
+            }
+            p{
+                color:rosybrown;
+            }
+            #one{
+                height: 30px;
+                width: 100px;
+                background: gray;
+            }
+            #mytext{
+                height: 400px;
+                width:200px;
+                background: skyblue
+            }
+            .myclass{
+                height: 60px;
+                width: 150px;
+                background: indianred 
+            }
+        </style>
+    </head>
+    <body>
+        <div id="one">
+            This is one Div
+        </div>
+        <div class="myclass">
+                This is one Div
+        </div>
+        <div id="mytext">
+            <p>1111111Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsumhas been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </div>
+        <div class="myclass">
+                This is one Div
+        </div>
+        <div>
+            This is two Div
+        </div>
+        <div style="background:slateblue;color:white;">
+            This is First Div
+        </div>
+        <div style="background:olive;color:white;">
+            This is Second Div
+        </div>
+    </body>
+</html>

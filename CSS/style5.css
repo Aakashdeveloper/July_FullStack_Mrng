@@ -1,0 +1,41 @@
+div{
+    height: 30px;
+    width: 100px;
+    background: hotpink;
+}
+p{
+    color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:15px;
+
+}
+#one{
+    height: 30px;
+    width: 100px;
+    background: gray;
+}
+.mytext{
+    height: 450px;
+    width:300px;
+    background: skyblue;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.mytext1{
+    height: 450px;
+    width:300px;
+    background: skyblue;
+    margin: 10px;
+}
+.myclass{
+    height: 60px;
+    width: 150px;
+    background: indianred ;
+}
+.mysecondtext{
+    background:sandybrown;
+}
+.mythirdtext{
+    background: thistle
+}
