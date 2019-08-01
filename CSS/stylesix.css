@@ -1,0 +1,55 @@
+.heading{
+    text-align: center;
+}
+
+.topic{
+    height: 300px;
+    width:300px;
+    float: left;
+    border:5px groove teal;
+    margin-left:20px;
+    overflow: scroll;
+    background:skyblue;
+    border-radius: 10%;
+    box-shadow: 10px 10px 5px gray;
+    padding: 10px
+}
+.secondline{
+    background:thistle;
+    margin-top:20px;
+}
+
+
+
+.topic h2{
+    text-align:center;
+    color:blueviolet
+}
+
+.secondline h2{
+    color:hotpink
+}
+
+.secondline .mongohead{
+    color:gold
+}
+
+button{
+    padding:10px;
+    margin:20px;
+}
+body{
+    /*background:rgb(226, 236, 213)
+    background-image:linear-gradient(to top, rgb(201, 201, 248), rgb(178, 238, 178), rgb(236, 193, 193), rgb(233, 233, 157))
+    */
+    background-image:radial-gradient(rgb(201, 201, 248), rgb(178, 238, 178), rgb(236, 193, 193), rgb(233, 233, 157))
+}
+
+
+/*
+solid
+dotted
+dashed
+groove
+double
+*/
