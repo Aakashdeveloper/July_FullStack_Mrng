@@ -1,0 +1,91 @@
+.navbar{
+    background:khaki;
+    height: 50px;
+    width: 100%;
+    position: relative;
+}
+li{
+    float: left;
+    padding:10px;
+}
+
+li a{
+    text-decoration: none;
+    font-size:20px;
+    color:#000
+}
+
+ul{
+    list-style-type: none;
+}
+
+.testhover{
+    height: 550px;
+    width:100%;
+    background:teal;
+    position: absolute;
+    top:50px;
+    overflow: hidden;
+}
+.testhover1{
+    height: 550px;
+    width:100%;
+    background:gold;
+    position: relative;
+    top:550px;
+    overflow: hidden;
+    opacity: 1;
+}
+
+.testhover:hover{
+    background:tomato;
+    
+   
+}
+
+li:hover a{
+    background: rgb(241, 232, 232)
+}
+
+.topnav {
+    overflow: hidden;
+    background: #333;
+}
+
+.topnav a {
+    float: left;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:16px;
+
+}
+.topnav a:hover{
+    color:black;
+    background-color:#ddd
+}
+
+.topnav a.active{
+    background:lightgreen;
+    color:white
+}
+
+
+.mytext{
+    font-size:40px;
+    visibility: hidden;
+    color:darkmagenta
+}
+
+.bpimage{
+    transform: rotate(180deg)
+}
+
+.bpimage:hover {
+    transform: rotate(0deg);
+    -moz-transform: skewY(20deg);
+    -webkit-transform: skewY(20deg);
+    -o-transform: skewY(20deg);
+    -ms-transform: skewY(20deg);
+}

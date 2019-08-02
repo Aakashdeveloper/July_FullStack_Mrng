@@ -19,8 +19,6 @@
     margin-top:20px;
 }
 
-
-
 .topic h2{
     text-align:center;
     color:blueviolet
@@ -45,6 +43,23 @@ body{
     background-image:radial-gradient(rgb(201, 201, 248), rgb(178, 238, 178), rgb(236, 193, 193), rgb(233, 233, 157))
 }
 
+@media  screen and (min-width: 800px){
+    body{
+        background: salmon;  
+    }
+    .topic{
+        width:200px;
+    }
+}
+
+@media  screen and (min-width: 1000px){
+    body{
+        background: slategray
+    }
+    .topic{
+        width:300px;
+    }
+}
 
 /*
 solid
